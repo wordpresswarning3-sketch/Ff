@@ -97,7 +97,7 @@ else:
 # حفظ الاتصال إذا كان Online
 # -------------------------
 
-if status == "online":
+if status != "online":
 
     record = {
         "player_id": player_id,
