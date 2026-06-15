@@ -98,6 +98,10 @@ else:
 # -------------------------
 
 if status != "offline":
+    requests.post(
+    "https://ntfy.sh/ff_alert_7x92kd81",
+    data="سارة متصلة".encode("utf-8")
+    )
 
     record = {
         "player_id": player_id,
