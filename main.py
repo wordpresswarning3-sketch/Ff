@@ -57,6 +57,8 @@ async def main():
             add_player(client),
             add_player(client)
         )
+        await asyncio.sleep(3)
+
 
         response = await client.get(
             REALTIME_URL,
