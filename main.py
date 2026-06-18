@@ -105,10 +105,10 @@ async def main():
             f"{FIREBASE_URL}/connections/{PLAYER_ID}.json"
         )
 
-        await asyncio.gather(
-            client.post(
-                NTFY_URL,
-                content="سارة متصلة".encode("utf-8")
+        await client.post(
+    NTFY_URL,
+    content=str(status).encode("utf-8")
+            )
             ),
             client.post(
                 firebase_endpoint,
