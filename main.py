@@ -71,8 +71,8 @@ async def main():
         player = data.get(PLAYER_ID, {})
         status = player.get("status")
 
-        if status == "offline":
-            print("اللاعب غير متصل")
+        if status in (None, "offline"):
+            print(f"تم تجاهل الحالة: {status}")
             return
 
         details = player.get("details", {})
