@@ -8,7 +8,7 @@ ADD_PLAYER_URL = "https://m2.0xarm.com/api/add_player"
 REALTIME_URL = "https://m2.0xarm.com/api/realtime_status"
 
 FIREBASE_URL = "https://rasid-e1af8-default-rtdb.firebaseio.com/"
-NTFY_URL = "https://ntfy.sh/ff_alert_7x92kd81"
+NTFY_URL = "https://ntfy.sh/yyyhyhujjjmj"
 
 ADD_PLAYER_HEADERS = {
     'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
